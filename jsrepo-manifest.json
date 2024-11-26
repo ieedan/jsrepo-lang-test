@@ -82,5 +82,23 @@
 				"devDependencies": []
 			}
 		]
+	},
+	{
+		"name": "yaml",
+		"blocks": [
+			{
+				"name": "test",
+				"directory": "src/yaml",
+				"category": "yaml",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"test.yml"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": []
+			}
+		]
 	}
 ]
