@@ -1,0 +1,86 @@
+[
+	{
+		"name": "svelte",
+		"blocks": [
+			{
+				"name": "button",
+				"directory": "src/svelte/button",
+				"category": "svelte",
+				"tests": false,
+				"subdirectory": true,
+				"files": [
+					"button.svelte",
+					"index.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [
+					"bits-ui",
+					"tailwind-variants"
+				],
+				"devDependencies": []
+			}
+		]
+	},
+	{
+		"name": "ts",
+		"blocks": [
+			{
+				"name": "add",
+				"directory": "src/ts",
+				"category": "ts",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"add.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [],
+				"devDependencies": []
+			}
+		]
+	},
+	{
+		"name": "tsx",
+		"blocks": [
+			{
+				"name": "button",
+				"directory": "src/tsx",
+				"category": "tsx",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"button.tsx"
+				],
+				"localDependencies": [],
+				"dependencies": [
+					"react",
+					"@radix-ui/react-slot",
+					"class-variance-authority"
+				],
+				"devDependencies": []
+			}
+		]
+	},
+	{
+		"name": "vue",
+		"blocks": [
+			{
+				"name": "button",
+				"directory": "src/vue/button",
+				"category": "vue",
+				"tests": false,
+				"subdirectory": true,
+				"files": [
+					"button.vue",
+					"index.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [
+					"radix-vue",
+					"class-variance-authority"
+				],
+				"devDependencies": []
+			}
+		]
+	}
+]
